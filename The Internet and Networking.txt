@@ -1,0 +1,48 @@
+	• Basics of Networking
+	• The Internet is a interconnections of computers around the world
+	• We call these interconnections a Network
+	• The Internet - the physical connection of computers and wires around the world
+	• The Web - the information on the internet
+	• Servers store the websites that we use
+	• Clients request the content from servers
+	• IPS are connected to clients
+	• Computers on a network have an identifier called an IP address
+	• MAC address is hard coded onto the device
+	• When you send or receive data through a network you need to have both an IP and a MAC address
+	• Data that are sent over networks are called packets (binary forms like 0s and 1s)
+
+	• Networking Hardware
+	• Ethernet Cable is a physical connection from computer to network
+	• WI-FI (wireless networking)
+		○ Radios
+		○ Antennas
+	• Fiber Optic Cables
+		○ Expensive
+		○ Greater speeds
+		○ Cables contain glass fibers that transfer data through light
+		○ Router - connects lots of different devices together and helps route network traffic
+	• Switches and Hubs also help data travel 
+		○ Switches - figures out where to send data
+		○ Hubs - sends data to everyone
+	• Network Stack - a set of hardware or software that provides the infrastructure for a computer
+
+	• Networking - Language of the Internet
+	• Networking Protocols
+		○ Routed efficiently
+		○ Aren't corrupted
+		○ Secure
+		○ Right machine
+		○ Named appropriately
+	• TCP/IP
+		○ (Internet Protocol) IP - delivers packets to right computers
+		○ (Transmission Control Protocol) TCP - Delivers information from one network to another
+
+	• Networking - The Web
+	• All websites can be accessed through the web
+	• URL (Uniform Resource Locator) - a web address
+		○ "www" - world wide web
+		○ "reddit" - domain name
+			§ Once a name is taken, it'll be registered in ICANN (Internet Corporation for Assigned Names and Numbers)
+		○ ".com" - standard for what type of website it might be
+	• DNS (Domain Name System)
+		○ Acts like internet directory

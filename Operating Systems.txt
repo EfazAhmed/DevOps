@@ -1,0 +1,99 @@
+	• Operating System - The whole package that manages our computer's resources and lets us interact with it
+		○ Kernel Space
+			§ Main Core
+			§ Talks to our hardware
+			§ File storage and management
+				□ File System - how we manage our files
+					® Folders
+					® Directories
+			§ Process management
+			§ Memory management
+			§ I/O management
+				□ Anything that can give us input, or that we can use for output of data
+		○ User Space
+			§ Everything outside the kernel
+			§ UI
+	• Windows
+		○ Microsoft
+		○ Business and consumer space
+		○ PC
+	• Mac 
+		○ Consumer Space
+	• Linux
+		○ Open source OS
+		○ Business Infrastructure and in Consumer Space
+		○ Has different versions
+			§ Ubuntu
+			§ Debian
+			§ Red Hat
+		Chrome and Android OS both runs the Linux kernel underneath the hood
+	
+	
+	• File and File Systems
+	• File Handling
+		○ Data
+		○ Metadata
+			§ File extension - The appended part of a file name that  tells us what type of file it is in certain operating systems
+			§ File Owner
+			§ Permissions
+			§ File Size
+			§ Data Modified
+			§ Date Created
+			§ File Type
+		○ File System
+			§ Windows - NTFS
+				□ Encryptions
+				□ Faster Access Speeds
+				□ Security
+			§ MAC - HFS+
+				□ Journaled
+			§ Linux - ext4
+	• We write to our hard drive in the form of data blocks
+	• Block Storage - Improves faster handling of data because that data isn't stored as one long piece and can be accessed quicker
+
+	• Process Management 
+		○ Process - a program that's executable, like our internet browser or text editor
+		○ Program - an application that we can run, like Chrome
+	• The kernel has to worry about multiple processes at once
+	• CPU processes each process one by one
+		○ Time Slice -  a very short interval of time that gets allocated to a process for CPU execution
+	• Kernel - Creates processes, efficiently schedules them, and manages how processes are terminated
+
+	• Memory Management
+	• Virtual Memory - the combination of hard drive space and RAM that acts like memory that our processes can use.
+	• We take the data of the program in chunks, called pages, and store them in VM.
+		○ If we want to read or execute these pages, they must to sent to physical memory
+	• Swap Space - allocated space in hard drive for virtual memory
+
+	• IO Management
+	• I/O Devices - Devices that perform input and output
+		○ All managed by our kernel
+	• Driver is the software that connects the kernel to hardware
+	• When you're troubleshooting or solving a problem with a slow machine, it's usually some sort of hardware resource deficiency.
+
+	• Interacting with the OS: User Space
+	• Two ways to interact with user space:
+		○ Shell (CLI Shell)
+			§ Most common shell called Bash (Bourne Again Shell)
+			§ Window's shell is called PowerShell
+		○ GUI (Graphical User Interface)
+	• Some tasks can only be completed through commands
+
+	• Logs
+	• Logs - Files that record system events on our computer, just like a system's diary
+
+	• The Boot Process
+	• To start up a computer, we use the term boot
+	• BIOS/UEFI - a low level software that initializes our computer's hardware to make sure everything is good to go.
+	• The BIOS/UEFI runs a process called the POST (Power On Self Test)
+		○ Runs a series of diagnostic tests to make sure that the computer is in proper working order
+	• Next, a boot device would be selected (boot order)
+	• Computer would search for a bootloader that loads the operating system.
+	• The kernel gets loaded right after.
+	• After, System processes and the user space are launched.
+
+	• Choosing an Operating System
+	• The operating systems in use by an organization have a lot to do with the applications and systems that they need to run.
+	• Modern operating systems do a pretty good job of supporting common hardware.
+	• If you have a 64 bit CPU, make sure your OS is also 64 bit.
+        • As an IT Support Specialist, you'll install an operating system many times, so using one single disk won't be time efficient or scalable.
