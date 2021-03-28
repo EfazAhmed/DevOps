@@ -1,0 +1,103 @@
+	• You don't need to follow the traditional path.
+	• You are expected to know how to solve problems.
+	• Make sure to have strong fundamentals and foundation.
+
+	• Understanding customers.
+	• Communication is important.
+	• Hardware is an essential topic to understand.
+
+	• They calculate, process, and store data.
+	• Hardware are physical components.
+	• Ports - Connection points that we can connect devices to that extend the functionality of our computer.
+	• CPU (Central Processing Unit) - The brain of our computer, it does all the calculations and data processing.
+	• RAM (Random Access Memory) - Our computer's short-term memory.
+	• Hard Drive - Holds all of our data, which includes all of our music, pictures, and applications.
+	• Motherboard - The body or circulatory system of the computer that connects all the pieces together.
+
+	• Computers can only communicate in binary (machine language).
+	• Programs - Instructions that tell the computer what to do.
+	• External Data Bus 
+		○ No voltage wire = 0
+		○ Voltage in wire = 1
+	• Memory Controller Chip (MCC) - Is a bridge between the CPU and the RAM
+	• Address Bus - Connects the CPU to the MCC
+	• Cache let's us reference data QUICKLY and it smaller than RAM.
+		○ There are 3 different cache levels in a CPU:
+			§ L1 - smallest and fastest cache
+			§ L2
+			§ L3 
+	• Clock Wire - Our CPU has a internal clock that keeps its calculations in sync.
+	• Clock Speed - The maximum number of clock cycles that it can handle in a certain time period.
+		○ 3.40 gigahertz is 3.4 billion cycles per second.
+		○ Overclocking is used to go past that limit of clock speed.
+
+	• CPU
+	• Instruction sets are hard-coded into our CPU
+		○ Adding
+		○ Subtracting
+		○ Copying Data
+	• When you select your CPU, you'll need to make sure it's compatible with your motherboard -- the circuit board that connected all your components together.
+	• Two major types of CPU sockets:
+		○ Land grid array (LGA)
+		○ Pin grid array (PGA)
+	• Heat Sink - dissipates heat from components such as the CPU.
+	• Bits essentially tells your how much data that can appropriately handle.
+
+	• RAM
+	• Almost all RAM is volatile.
+	• 16gb of RAM means it can run 16gb of programs at the same time.
+	• RAM clears its data when its powered off.
+	• There are lots of types of RAM, and the one that's commonly found in computers is DRAM, or dynamic random-access memory.
+	• There are also different types of memory sticks that DRAM chips can be put on. The more modern DIMM sticks, which usually stands for DUAL Inline Memory Module, have different size pins on them.
+	• In today's system, we use another type of RAM, called double data rate SDRAM or DDR SDRAM for short.
+	• DDR
+		○ DDR RAM is faster and takes up less power.
+		○ DDR1
+		○ DDR2           
+                ○ DDR3
+		○ DDR4 - fastest type of short term memory.
+
+	• Motherboard
+	• Every motherboard has a few key characteristics:
+		○ Chipset - decides how components talk to each other on our machine.
+			§ Northbridge (RAM, GPU)
+			§ Southbridge (Input/Output)
+		○ Peripherals - External devices we connect to our computer, like a mouse, keyboard, and monitor.
+		○ Expansion Slots - Give us the ability to increase the functionality of our computer.
+			§ PCI Express (Peripheral Component Interconnect Express)
+		○ Form Factor
+			§ ATX (Advanced Technology eXtended)
+			§ ITX (Information Technology eXtended)
+	
+	• Storage
+	• Data Sizes
+		○ Smallest Unit of Data storage is a bit
+			§ A bit can hold one binary digit such as a 1 or a 0
+		○ Second smallest unit of data storage is a byte
+			§ Comprised of 8 bits
+			§ Can hold a letter, number, or symbol
+		○ Third smallest unit of data storage is a kilobyte (KB)
+			§ 1,024 bytes
+		○ 1,024 KB = 1 MB
+		○ 1,024 MB = 1 GB
+		○ 1,024 GB = 1 TB
+	• Two Types of Hard Drives
+		○ Hard Disk Drives (HDD) 
+			§ RPM - Revolution per minute
+				□ Faster RPM is a faster hard drive
+			§ Prone to a lot of damage due to a lot of moving parts
+		○ Solid State Drives (SSD)
+			§ No moving parts
+			§ Data travels a lot faster than HDD
+			§ Less risky but more expensive
+	• Connecting Drives to our system:
+		○ ATA
+			§ Serial ATA (SATA)
+				□ Uses one cable to transfer data
+				□ Hot swappable
+				□ Moves data faster
+				□ Defector Interface for HDD today
+			§ NVM Express or NVMe
+				□ Drive that is added through expansion slot
+					® Greater throughput of data
+					® Increased efficiency
